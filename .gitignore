@@ -43,3 +43,7 @@ next-env.d.ts
 .check-conn.mjs 
 startlog.txt 
 dev-server.log 
+supabase/.temp/ 
+*.log 
+test-results/ 
+_shot-*.png 
