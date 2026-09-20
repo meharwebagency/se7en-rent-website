@@ -1,0 +1,337 @@
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admin" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{rsc:{...}, ...}}>
+                    <__next_viewport_boundary__>
+                    <MetadataWrapper>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                    ...
+                  ...
+                    <RedirectErrorBoundary router={{...}}>
+                      <InnerLayoutRouter url="/admin" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} ...>
+                        <SegmentViewNode type="layout" pagePath="admin/layo...">
+                          <SegmentTrieNode>
+                          <link>
+                          <script>
+                          <script>
+                          <script>
+                          <AdminRootLayout>
+                            <html lang="ar" dir="rtl" className="cairo_323b..." suppressHydrationWarning={true}>
+                              <body
+                                className="min-h-screen bg-background font-sans"
+-                               __processed_1f321041-1681-41a4-b21f-d9af7580712e__="true"
+-                               bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2Zj..."
+                              >
+                                ...
+                                  <SegmentViewNode type="page" pagePath="admin/page...">
+                                    <SegmentTrieNode>
+                                    <AdminDashboardPage>
+                                      <AdminShell dict={{brand:"لوح...", ...}} locale="ar" userEmail="meharwebag..." ...>
+                                        <div
+                                          className="min-h-screen lg:flex"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <aside className="sticky top...">
+                                            <div
+                                              className="flex h-16 items-center gap-2 border-b border-border px-5"
+-                                             bis_skin_checked="1"
+                                            >
+                                            <NavList>
+                                            <div
+                                              className="mt-auto border-t border-border p-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="flex min-w-0 flex-1 flex-col"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <header className="sticky top...">
+                                              <div
+                                                className="flex items-center gap-2 lg:hidden"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <p>
+                                              <div
+                                                className="ms-auto flex items-center gap-1.5 sm:gap-2"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <AdminLanguageSwitcher>
+                                                <span>
+                                                <_c>
+                                                <div
+                                                  className="lg:hidden"
+-                                                 bis_skin_checked="1"
+                                                >
+                                            <main className="flex-1 p-4...">
+                                              <PageHeader>
+                                                <div
+                                                  className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-end sm:just..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+-                                                   bis_skin_checked="1"
+                                                  >
+                                              <div
+                                                className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 xl:grid-cols-5"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <LinkComponent>
+                                                  <LinkComponent href="/admin/cars" className="block roun..." ...>
+                                                    <a className="block roun..." aria-label="إجمالي الم..." ...>
+                                                      <Card>
+                                                        <div
+                                                          className="rounded-2xl border border-border bg-card text-car..."
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                          <CardHeader>
+                                                            <div
+                                                              className="flex flex-col space-y-1.5 p-4 pb-2"
+-                                                             bis_skin_checked="1"
+                                                            >
+                                                              <CardTitle>
+                                                                <div
+                                                                  className="font-display tracking-tight flex items-ce..."
+-                                                                 bis_skin_checked="1"
+                                                                >
+                                                          <CardContent>
+                                                            <div
+                                                              className="p-6 pt-0 px-4 pb-4"
+-                                                             bis_skin_checked="1"
+                                                            >
+                                                <LinkComponent>
+                                                  <LinkComponent href="/admin/car..." className="block roun..." ...>
+                                                    <a className="block roun..." aria-label="متاحة: 1" ref={function} ...>
+                                                      <Card>
+                                                        <div
+                                                          className="rounded-2xl border border-border bg-card text-car..."
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                          <CardHeader>
+                                                            <div
+                                                              className="flex flex-col space-y-1.5 p-4 pb-2"
+-                                                             bis_skin_checked="1"
+                                                            >
+                                                              <CardTitle>
+                                                                <div
+                                                                  className="font-display tracking-tight flex items-ce..."
+-                                                                 bis_skin_checked="1"
+                                                                >
+                                                          <CardContent>
+                                                            <div
+                                                              className="p-6 pt-0 px-4 pb-4"
+-                                                             bis_skin_checked="1"
+                                                            >
+                                                <LinkComponent>
+                                                  <LinkComponent href="/admin/cars" className="block roun..." ...>
+                                                    <a className="block roun..." aria-label="غير متاحة: 0" ref={function} ...>
+                                                      <Card>
+                                                        <div
+                                                          className="rounded-2xl border border-border bg-card text-car..."
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                          <CardHeader>
+                                                            <div
+                                                              className="flex flex-col space-y-1.5 p-4 pb-2"
+-                                                             bis_skin_checked="1"
+                                                            >
+                                                              <CardTitle>
+                                                                <div
+                                                                  className="font-display tracking-tight flex items-ce..."
+-                                                                 bis_skin_checked="1"
+                                                                >
+                                                          <CardContent>
+                                                            <div
+                                                              className="p-6 pt-0 px-4 pb-4"
+-                                                             bis_skin_checked="1"
+                                                            >
+                                                <LinkComponent>
+                                                  <LinkComponent href="/admin/boo..." className="block roun..." ...>
+                                                    <a className="block roun..." aria-label="قيد الانتظ..." ...>
+                                                      <Card>
+                                                        <div
+                                                          className="rounded-2xl border border-border bg-card text-car..."
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                          <CardHeader>
+                                                            <div
+                                                              className="flex flex-col space-y-1.5 p-4 pb-2"
+-                                                             bis_skin_checked="1"
+                                                            >
+                                                              <CardTitle>
+                                                                <div
+                                                                  className="font-display tracking-tight flex items-ce..."
+-                                                                 bis_skin_checked="1"
+                                                                >
+                                                          <CardContent>
+                                                            <div
+                                                              className="p-6 pt-0 px-4 pb-4"
+-                                                             bis_skin_checked="1"
+                                                            >
+                                                <LinkComponent>
+                                                  <LinkComponent href="/admin/boo..." className="block roun..." ...>
+                                                    <a className="block roun..." aria-label="نشطة: 0" ref={function} ...>
+                                                      <Card>
+                                                        <div
+                                                          className="rounded-2xl border border-border bg-card text-car..."
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                          <CardHeader>
+                                                            <div
+                                                              className="flex flex-col space-y-1.5 p-4 pb-2"
+-                                                             bis_skin_checked="1"
+                                                            >
+                                                              <CardTitle>
+                                                                <div
+                                                                  className="font-display tracking-tight flex items-ce..."
+-                                                                 bis_skin_checked="1"
+                                                                >
+                                                          <CardContent>
+                                                            <div
+                                                              className="p-6 pt-0 px-4 pb-4"
+-                                                             bis_skin_checked="1"
+                                                            >
+                                              <div
+                                                className="mt-6 grid gap-6 xl:grid-cols-3"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="min-w-0 xl:col-span-2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <Card>
+                                                    <div
+                                                      className="rounded-2xl border border-border bg-card text-card-fo..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                      <CardHeader>
+                                                        <div
+                                                          className="p-6 flex flex-row items-center justify-between sp..."
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                          <CardTitle>
+                                                            <div
+                                                              className="font-display font-semibold tracking-tight tex..."
+-                                                             bis_skin_checked="1"
+                                                            >
++                                                             أحدث الحجوزات
+                                                          ...
+                                                      <CardContent>
+                                                        <div
+                                                          className="p-0"
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                          <RecentBookings bookings={[...]} dict={{brand:"لوح...", ...}} ...>
+                                                            <div
+                                                              className="overflow-x-auto"
+-                                                             bis_skin_checked="1"
+                                                            >
+                                                              <table className="w-full tex...">
+                                                                <thead>
+                                                                <tbody className="divide-y d...">
+                                                                  <tr tabIndex={0} role="link" aria-label="المرجع GZO..." ...>
+                                                                    <td>
+                                                                    <td>
+                                                                    <td>
+                                                                    <td>
+                                                                    <td>
+                                                                    <td className="px-3 py-3">
+                                                                      <Badge variant="warning">
+                                                                        <div
+                                                                          className="inline-flex items-center rounded-..."
+-                                                                         bis_skin_checked="1"
+                                                                        >
++                                                                         قيد الانتظار
+                                                                    <td className="px-6 py-3">
+                                                                      <div
+                                                                        className="flex items-center justify-end"
+-                                                                       bis_skin_checked="1"
+                                                                      >
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <NotificationsPanel notifications={[...]} dict={{brand:"لوح...", ...}} ...>
+                                                    <div
+                                                      className="rounded-2xl border border-border bg-card shadow-sm"
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                      <div
+                                                        className="flex items-center justify-between gap-2 border-b bo..."
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                        <h3 className="inline-fle...">
+                                                          <Bell>
+                                                          <Badge variant="accent">
+                                                            <div
+                                                              className="inline-flex items-center rounded-full border ..."
+-                                                             bis_skin_checked="1"
+                                                            >
+                                                        <div
+                                                          className="flex items-center gap-1"
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                      <div
+                                                        className="max-h-96 divide-y divide-border overflow-y-auto"
+-                                                       bis_skin_checked="1"
+                                                      >
+                                                        <button type="button" onClick={function onClick} ...>
+                                                          <span>
+                                                          <div
+                                                            className="min-w-0 flex-1"
+-                                                           bis_skin_checked="1"
+                                                          >
+                                                          ...
+                                              <div
+                                                className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <Card>
+                                                  <div
+                                                    className="rounded-2xl border border-border bg-card text-card-fore..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <div
+                                                      className="relative h-36 bg-secondary"
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                      <img>
+                                                      <Badge>
+                                                        <div
+                                                          className="inline-flex items-center rounded-full border px-2..."
+-                                                         bis_skin_checked="1"
+                                                        >
++                                                         متاحة
+                                                    <CardContent>
+                                                      <div
+                                                        className="p-4"
+-                                                       bis_skin_checked="1"
+                                                      >
+                                  ...
+                                ...
+                      ...
+                  ...
+ 
+[browser] Image with src "/images/hero-desktop.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). 
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
