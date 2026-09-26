@@ -27,7 +27,7 @@ export function Navbar({ dict, lang }: NavbarProps) {
       <div className="container-max flex h-14 items-center justify-between gap-4 px-4 sm:px-6 lg:h-16 lg:px-8">
         <div className="flex min-w-0 items-center gap-2 sm:gap-2.5">
           <Logo />
-          <p className="min-w-0 truncate font-display text-xs font-bold tracking-widest text-white sm:text-sm lg:text-base">
+          <p className="min-w-0 truncate font-display text-base font-bold tracking-widest text-white sm:text-base lg:text-lg">
             {dict.nav.brand}
           </p>
         </div>

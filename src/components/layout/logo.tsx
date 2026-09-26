@@ -6,7 +6,7 @@ export function Logo() {
     <Image
       src={logoImg}
       alt="Al Zajel Rent Car"
-      className="h-8 w-8 object-contain lg:h-10 lg:w-10"
+      className="h-10 w-10 object-contain lg:h-12 lg:w-12"
       priority
     />
   );
