@@ -6,6 +6,7 @@ import {
 
 import { Button } from "@/components/ui/button";
 import { FeaturedVehicles } from "@/components/vehicles/featured-vehicles";
+import { FleetRemaining } from "@/components/vehicles/fleet-remaining";
 import { TrustSection } from "@/components/home/trust-section";
 import { ServicesSection } from "@/components/home/services-section";
 import { HowItWorksSection } from "@/components/home/how-it-works-section";
@@ -80,11 +81,19 @@ export default async function HomePage({
       {/* ============ FEATURED VEHICLES ============ */}
       <section id="vehicles" className="bg-secondary/60 pb-8 pt-4 lg:pb-10 lg:pt-6">
         <div className="container-max px-4 sm:px-6 lg:px-8">
+          {/* Main section title */}
+          <div className="mb-6">
+            <h2 className="font-display text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
+              {dict.home.ourFleetTitle}
+            </h2>
+            <span className="mt-3 block h-1 w-16 rounded-full bg-accent" />
+          </div>
+
           <div className="flex flex-wrap items-end justify-between gap-4">
             <div>
-              <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+              <h3 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
                 {dict.home.vehiclesTitle}
-              </h2>
+              </h3>
               <span className="mt-3 block h-1 w-16 rounded-full bg-accent" />
             </div>
             <Link
@@ -97,6 +106,9 @@ export default async function HomePage({
           </div>
           <div className="mt-4">
             <FeaturedVehicles dict={dict} lang={lang as Locale} />
+          </div>
+          <div className="mt-6">
+            <FleetRemaining dict={dict} lang={lang as Locale} />
           </div>
         </div>
       </section>
