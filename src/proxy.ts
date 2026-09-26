@@ -5,12 +5,12 @@ import { defaultLocale, isLocale, LOCALE_COOKIE } from "@/i18n/config";
 /**
  * Locale routing proxy.
  *
- * Arabic (ar) is the default language. When a visitor hits a path without a
+ * English (en) is the default language. When a visitor hits a path without a
  * locale prefix, we redirect them to their preferred locale:
  *   - the persisted `rb_locale` cookie if it is valid, otherwise
- *   - the default (ar).
+ *   - the default (en).
  *
- * This keeps clean, shared routes (no duplicated pages) while making Arabic
+ * This keeps clean, shared routes (no duplicated pages) while making English
  * the default first-visit experience and persisting the user's choice.
  */
 const LOCALE_PATTERN = /^\/(ar|en)(\/|$)/;
