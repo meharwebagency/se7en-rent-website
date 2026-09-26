@@ -76,6 +76,10 @@ export async function generateMetadata({
     metadataBase: new URL(
       process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"
     ),
+    icons: {
+      icon: [{ url: "/favicon.ico?v=2" }],
+      apple: [{ url: "/apple-icon.png?v=2" }],
+    },
     openGraph: {
       title: dict.meta.title,
       description: dict.meta.description,
