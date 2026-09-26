@@ -41,7 +41,7 @@ export function daysBetween(pickupDate: string, returnDate: string): number {
 
 function priceForDays(dailyPrice: number, days: number): number {
   const total = dailyPrice * days;
-  return Math.round(total); // OMR whole numbers
+  return Math.round(total); // BHD whole numbers
 }
 
 function isValidDate(value: string): boolean {

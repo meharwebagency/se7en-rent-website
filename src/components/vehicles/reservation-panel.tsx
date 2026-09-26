@@ -57,7 +57,7 @@ type Availability =
   | "unavailable"
   | "unknown";
 
-const roundOMR = (n: number) => Math.round(n);
+const roundBHD = (n: number) => Math.round(n);
 
 /** Formats a YYYY-MM-DD string as e.g. "15 Oct 2026" (or Arabic). */
 function formatWaDate(dateStr: string, lang: Locale): string {
@@ -116,7 +116,7 @@ function estimateTotal(car: Vehicle, days: number): number {
     const rest = days % 30;
     total = Math.min(total, months * car.monthly_price + rest * daily);
   }
-  return roundOMR(total);
+  return roundBHD(total);
 }
 
 export function ReservationPanel({

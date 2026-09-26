@@ -69,7 +69,7 @@ export async function generateMetadata({
   return {
     title: {
       default: dict.meta.title,
-      template: `%s | ${lang === "ar" ? "سيڤن لتأجير السيارات والتنقل" : "SE7EN Car Rental & Mobility"}`,
+      template: `%s | ${lang === "ar" ? "الزاجل لتأجير السيارات" : "Al Zajel Rent Car"}`,
     },
     description: dict.meta.description,
     keywords: dict.meta.keywords,

@@ -13,7 +13,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Separator } from "@/components/ui/separator";
-import { Logo } from "@/components/layout/logo";
+import { Logo } from "./logo";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
 
 import type { Dictionary } from "@/i18n/dictionaries";
@@ -45,7 +45,7 @@ export function MobileNav({ dict, lang, links }: MobileNavProps) {
           <SheetTitle className="sr-only">{dict.nav.menu}</SheetTitle>
         </SheetHeader>
         <div className="mb-4">
-          <Logo lang={lang} />
+          <Logo />
         </div>
         <Separator />
         <nav className="mt-4 flex flex-col gap-1" aria-label={dict.nav.menu}>

@@ -85,7 +85,7 @@ export function LoginForm({ dict }: LoginFormProps) {
           required
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="admin@example.com"
+          placeholder="meharwebagency@gmail.com"
         />
       </div>
 

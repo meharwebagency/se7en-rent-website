@@ -12,8 +12,8 @@ import "@/app/globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "SE7EN Admin",
-    template: "%s | SE7EN Admin",
+    default: "Al Zajel Admin",
+    template: "%s | Al Zajel Admin",
   },
   robots: { index: false, follow: false },
 };

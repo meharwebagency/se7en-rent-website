@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "SE7EN Car Rental & Mobility \u2014 Premium Car Rental in Oman",
-    "description": "More than a rental. Rent premium cars in Oman with SE7EN Car Rental & Mobility. Choose from a wide range of luxury vehicles, book instantly online, and enjoy reliable service.",
-    "keywords": "car rental oman, rent a car oman, luxury cars oman, SE7EN car rental"
+    "title": "Al Zajel Rent Car — Premium Car Rental",
+    "description": "More than a rental. Rent premium cars with Al Zajel Rent Car. Choose from a wide range of luxury vehicles, book instantly online, and enjoy reliable service.",
+    "keywords": "car rental, rent a car, luxury cars, Al Zajel Rent Car"
   },
   "language": {
     "switcher": "Language",
@@ -32,7 +32,7 @@
     "optional": "optional",
     "required": "required",
     "perDay": "/ day",
-    "currency": "ر.ع.",
+    "currency": "د.ب.",
     "notFound": "Not found",
     "welcome": "Welcome",
     "readMore": "Read more",
@@ -49,10 +49,10 @@
     "admin": "Admin",
     "menu": "Menu",
     "openMenu": "Open menu",
-    "brand": "SE7EN Car Rental & Mobility"
+    "brand": "Al Zajel Rent Car"
   },
   "footer": {
-    "tagline": "More than a rental. We are SE7EN Car Rental & Mobility, a leading vehicle rental company in Oman. Based in Muscat, we are committed to flexible and reliable mobility built on the highest standards of quality and transparency.",
+    "tagline": "More than a rental. We are Al Zajel Rent Car, a leading vehicle rental company. We are committed to flexible and reliable mobility built on the highest standards of quality and transparency.",
     "fleetTitle": "Our Diverse Fleet",
     "fleetText": "We own a comprehensive, modern fleet that covers every need and taste, including a wide range of vehicles such as:",
     "fleetEconomy": "Economical and practical cars for everyday use",
@@ -72,7 +72,7 @@
     "privacy": "Privacy Policy",
     "cancellation": "Cancellation Policy",
     "requirements": "Rental Requirements",
-    "copyright": "© {year} SE7EN Car Rental & Mobility. All rights reserved."
+    "copyright": "© {year} Al Zajel Rent Car. All rights reserved."
   },
   "home": {
     "heroBadge": "Premium car rental in Oman",
@@ -105,7 +105,7 @@
     "trustTitle": "Trusted by travelers across Oman",
     "trustSubtitle": "We combine a premium fleet with dependable service.",
     "trust1Title": "Transparent Pricing",
-    "trust1Desc": "Clear rates in Omani Rial with no hidden fees.",
+    "trust1Desc": "Clear rates in Bahraini Dinar with no hidden fees.",
     "trust2Title": "Well-Maintained Fleet",
     "trust2Desc": "Every vehicle is serviced and inspected regularly.",
     "trust3Title": "Flexible Terms",
@@ -121,8 +121,8 @@
   },
   "about": {
     "heroBadge": "About Us",
-    "heroTitle": "About SE7EN Car Rental & Mobility",
-    "heroSubtitle": "More than a rental. We are SE7EN Car Rental & Mobility, a leading company in the vehicle rental sector in Oman. Based in Muscat, we are committed to meeting our clients' expectations by providing flexible, reliable mobility solutions built on the highest standards of quality and transparency.",
+    "heroTitle": "About Al Zajel Rent Car",
+    "heroSubtitle": "More than a rental. We are Al Zajel Rent Car, a leading company in the vehicle rental sector. We are committed to meeting our clients' expectations by providing flexible, reliable mobility solutions built on the highest standards of quality and transparency.",
     "fleetTitle": "Our Diverse Fleet",
     "fleetSubtitle": "We own a comprehensive, modern fleet that covers every need and taste, including a wide range of vehicles such as:",
     "fleetItems": [
@@ -147,7 +147,7 @@
       "Competitive rates with full transparency and no hidden fees"
     ],
     "visitTitle": "Visit Us",
-    "visitSubtitle": "Main office: Muscat \u2013 Oman",
+    "visitSubtitle": "Main office: Al Hidd, Bahrain",
     "visitPhone": "Phone",
     "visitPhones": ["97102438"],
     "visitEmail": "Email",
@@ -156,7 +156,7 @@
   "terms": {
     "heroTitle": "Terms & Conditions",
     "lastUpdated": "Last Updated: 2026",
-    "intro": "Welcome to SE7EN Car Rental & Mobility. By renting a vehicle from us, you agree to the following Terms & Conditions. Please read them carefully before making your booking.",
+    "intro": "Welcome to Al Zajel Rent Car. By renting a vehicle from us, you agree to the following Terms & Conditions. Please read them carefully before making your booking.",
     "sections": [
       {
         "title": "Rental Requirements",
@@ -186,7 +186,7 @@
         "title": "Insurance & Liability",
         "items": [
           "All rental vehicles include basic insurance covering third-party liability.",
-          "In the event of an accident, the renter must notify SE7EN immediately and provide the required police report.",
+          "In the event of an accident, the renter must notify Al Zajel Rent Car immediately and provide the required police report.",
           "The renter is responsible for the applicable insurance excess/deductible and for any damage or costs not covered by the insurance."
         ]
       },
@@ -207,8 +207,8 @@
       {
         "title": "Vehicle Breakdown & Roadside Assistance",
         "items": [
-          "If the vehicle breaks down, the renter must contact SE7EN immediately for assistance.",
-          "SE7EN will provide a replacement vehicle where one is available."
+          "If the vehicle breaks down, the renter must contact Al Zajel Rent Car immediately for assistance.",
+          "Al Zajel Rent Car will provide a replacement vehicle where one is available."
         ]
       },
       {
@@ -221,14 +221,14 @@
       {
         "title": "Chauffeur Service",
         "items": [
-          "Chauffeurs provided by SE7EN are trained and qualified.",
+          "Chauffeurs provided by Al Zajel Rent Car are trained and qualified.",
           "The renter must follow the agreed driving schedule and destinations arranged in advance."
         ]
       },
       {
         "title": "Termination of the Rental Agreement",
         "items": [
-          "SE7EN reserves the right to terminate the rental agreement if the renter violates any of these Terms & Conditions.",
+          "Al Zajel Rent Car reserves the right to terminate the rental agreement if the renter violates any of these Terms & Conditions.",
           "In the event of termination, the vehicle must be returned immediately."
         ]
       },
@@ -240,8 +240,8 @@
         ]
       }
     ],
-    "aboutTitle": "About SE7EN",
-    "aboutText": "SE7EN Car Rental & Mobility operates in the car rental and leasing sector, providing high-quality services to individual and corporate customers. We are committed to offering quality vehicles and professional service while delivering value and meeting the needs of our customers."
+    "aboutTitle": "About Al Zajel",
+    "aboutText": "Al Zajel Rent Car operates in the car rental and leasing sector, providing high-quality services to individual and corporate customers. We are committed to offering quality vehicles and professional service while delivering value and meeting the needs of our customers."
   },
   "vehicles": {
     "title": "Our Fleet",
@@ -319,15 +319,15 @@
       "returnDate": "Return date",
       "apply": "Apply filters",
       "type": "Type",
-      "priceMin": "Min (OMR)",
-      "priceMax": "Max (OMR)"
+      "priceMin": "Min (BHD)",
+      "priceMax": "Max (BHD)"
     },
     "priceRanges": {
       "any": "Any price",
-      "lt20": "Under OMR 20",
-      "b20_40": "OMR 20 – 40",
-      "b40_60": "OMR 40 – 60",
-      "gt60": "OMR 60 and up"
+      "lt20": "Under BHD 20",
+      "b20_40": "BHD 20 – 40",
+      "b40_60": "BHD 40 – 60",
+      "gt60": "BHD 60 and up"
     },
     "availabilityOptions": {
       "all": "All cars",
@@ -428,7 +428,7 @@
     "todayHours": "Today"
   },
   "admin": {
-    "brand": "SE7EN Admin",
+    "brand": "Al Zajel Admin",
     "title": "Admin Panel",
     "subtitle": "Manage your rental business",
     "language": {
@@ -443,7 +443,7 @@
       "perDay": "/ day"
     },
     "login": {
-      "heading": "Sign in to SE7EN Admin",
+      "heading": "Sign in to Al Zajel Admin",
       "subheading": "Staff only. Use your admin account credentials.",
       "email": "Email",
       "password": "Password",
@@ -543,9 +543,9 @@
         "luxury": "Luxury cars",
         "sport": "Sport cars"
       },
-      "dailyPrice": "Daily price (OMR)",
-      "weeklyPrice": "Weekly price (OMR)",
-      "monthlyPrice": "Monthly price (OMR)",
+      "dailyPrice": "Daily price (BHD)",
+      "weeklyPrice": "Weekly price (BHD)",
+      "monthlyPrice": "Monthly price (BHD)",
       "status": "Status",
       "available": "Available",
       "booked": "Booked",
@@ -597,7 +597,7 @@
       "vehicle": "Vehicle",
       "pickup": "Pickup",
       "return": "Return",
-      "total": "Total (OMR)",
+      "total": "Total (BHD)",
       "created": "Requested",
       "submitted": "Submitted",
       "details": "Booking details",

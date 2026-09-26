@@ -299,7 +299,7 @@ export default function AboutContent({ lang, dict, mapsUrl }: AboutContentProps)
           <div className="mt-10 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div className="rounded-2xl bg-white/5 p-6 text-center transition-colors hover:bg-white/10">
               <a
-                href={`tel:+968${dict.visitPhones[0]}`}
+                href="tel:+97333111121"
                 aria-label={dict.visitPhone}
                 className="contact-icon-link mx-auto mb-2"
               >
@@ -314,16 +314,13 @@ export default function AboutContent({ lang, dict, mapsUrl }: AboutContentProps)
               </a>
               <h3 className="font-display text-lg font-semibold">{dict.visitPhone}</h3>
               <div className="mt-2 space-y-1">
-                {dict.visitPhones.map((phone) => (
-                  <a
-                    key={phone}
-                    href={`tel:+968${phone}`}
-                    dir="ltr"
-                    className="contact-link block text-center text-white/80 hover:text-accent"
-                  >
-                    +968 {phone.slice(0, 4)} {phone.slice(4)}
-                  </a>
-                ))}
+                <a
+                  href="tel:+97333111121"
+                  dir="ltr"
+                  className="contact-link block text-center text-white/80 hover:text-accent"
+                >
+                  +973 3311 1121
+                </a>
               </div>
             </div>
 
@@ -384,7 +381,21 @@ export default function AboutContent({ lang, dict, mapsUrl }: AboutContentProps)
               <h3 className="font-display text-lg font-semibold">
                 {lang === "ar" ? "الموقع" : "Location"}
               </h3>
-              <p className="mt-2 text-white/70">Muscat, Oman</p>
+              <p className="mt-2 text-white/70">
+                {mapsUrl ? (
+                  <a
+                    href={mapsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    dir="ltr"
+                    className="text-white/70 underline-offset-4 hover:text-accent hover:underline"
+                  >
+                    Al Hidd, Bahrain
+                  </a>
+                ) : (
+                  "Al Hidd, Bahrain"
+                )}
+              </p>
             </div>
           </div>
         </div>

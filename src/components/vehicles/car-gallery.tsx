@@ -143,9 +143,9 @@ export function CarGallery({ images, name, brand, dict }: CarGalleryProps) {
                 .replace("{n}", String(index + 1))}
               className={cn(
                 "relative h-16 w-24 shrink-0 overflow-hidden rounded-lg border-2 transition-colors",
-                index === safeActive
-                  ? "border-accent ring-2 ring-accent/30"
-                  : "border-transparent opacity-70 hover:opacity-100"
+                  index === safeActive
+                    ? "border-lime ring-2 ring-lime/40"
+                    : "border-transparent opacity-70 hover:opacity-100"
               )}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}

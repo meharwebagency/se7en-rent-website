@@ -164,7 +164,7 @@ export function CarImagesManager({
               key={draft.key}
               className={cn(
                 "group relative overflow-hidden rounded-xl border bg-secondary",
-                index === 0 ? "border-accent" : "border-border",
+                index === 0 ? "border-lime" : "border-border",
               )}
             >
               {draft.preview || draft.url ? (

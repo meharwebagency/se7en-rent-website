@@ -123,7 +123,7 @@ export default async function HomePage({
           <Button
             asChild
             size="lg"
-            className="mt-8 bg-white text-accent hover:bg-white/90"
+            className="mt-8 bg-lime text-lime-foreground hover:bg-lime/90"
           >
             <a href="#vehicles">
               {dict.bookCta.button}

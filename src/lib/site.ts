@@ -13,10 +13,10 @@
  */
 
 export const siteConfig = {
-  name: "SE7EN Car Rental & Mobility",
-  nameAr: "سيڤن لتأجير السيارات والتنقل",
+  name: "Al Zajel Rent Car",
+  nameAr: "الزاجل لتأجير السيارات",
   description:
-    "More than a rental. Premium car rental & mobility services in Oman. استأجر سيارتك وانطلق بطريقتك.",
+    "More than a rental. Premium car rental services. استأجر سيارتك وانطلق بطريقتك.",
   email: "email@example.com", // TODO: replace with the real business email
 
   // Provided from the admin dashboard (Supabase settings) or set here as default.
@@ -26,7 +26,7 @@ export const siteConfig = {
   addressAr: "مسقط، عُمان",
 
   // Google Maps embedded location (leave blank — added later from the admin dashboard).
-  mapsUrl: "",
+  mapsUrl: "https://maps.app.goo.gl/Jvn9JeoxitUQV9XFA",
 
   // Social media (leave blank for channels not in use).
   social: {

@@ -1,14 +1,14 @@
 /**
- * Shared currency formatting for the Omani Rial (OMR / ر.ع.).
+ * Shared currency formatting for the Bahraini Dinar (BHD / د.ب).
  *
- * Prices are displayed as whole OMR amounts (no baisa decimals, e.g. "18 OMR").
+ * Prices are displayed as whole BHD amounts (no decimals, e.g. "18 BHD").
  * Every price in the app must be displayed through these helpers — never
  * format currency ad-hoc in individual components.
  */
 
-export const CURRENCY_CODE = "OMR";
-export const CURRENCY_SYMBOL_AR = "ر.ع.";
-export const CURRENCY_SYMBOL_EN = "OMR";
+export const CURRENCY_CODE = "BHD";
+export const CURRENCY_SYMBOL_AR = "د.ب";
+export const CURRENCY_SYMBOL_EN = "BHD";
 
 export type CurrencyLocale = "ar" | "en";
 
@@ -19,9 +19,9 @@ interface FormatCurrencyOptions {
 }
 
 /**
- * Format a numeric OMR amount as a whole number (no decimals), e.g. "18 OMR"
- * or "١٨ ر.ع.". Stored decimal values are rounded to the nearest OMR for
- * display; pass the value in OMR (e.g. 18.5).
+ * Format a numeric BHD amount as a whole number (no decimals), e.g. "18 BHD"
+ * or "١٨ د.ب". Stored decimal values are rounded to the nearest BHD for
+ * display; pass the value in BHD (e.g. 18.5).
  */
 export function formatOMR(
   amount: number,
@@ -29,7 +29,7 @@ export function formatOMR(
 ): string {
   const currency = locale === "ar" ? CURRENCY_SYMBOL_AR : CURRENCY_SYMBOL_EN;
 
-  const formatted = new Intl.NumberFormat(locale === "ar" ? "ar-OM" : "en-OM", {
+  const formatted = new Intl.NumberFormat(locale === "ar" ? "ar-BH" : "en-BH", {
     minimumFractionDigits: 0,
     maximumFractionDigits: 0,
   }).format(Number.isFinite(amount) ? amount : 0);

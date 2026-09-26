@@ -22,7 +22,7 @@ export async function createServerClient(): Promise<SupabaseClient<Database>> {
 
   return createSupabaseServiceClient<Database>(url, serviceKey, {
     auth: { persistSession: false, autoRefreshToken: false },
-    global: { headers: { "x-application-name": "se7en-rent" } },
+    global: { headers: {       "x-application-name": "alzajel-rent" } },
   });
 }
 

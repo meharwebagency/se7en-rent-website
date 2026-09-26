@@ -1,4 +1,4 @@
-import { Logo } from "@/components/layout/logo";
+import { Logo } from "./logo";
 import { MobileNav } from "@/components/layout/mobile-nav";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
 import { NavLink } from "@/components/layout/nav-link";
@@ -25,11 +25,9 @@ export function Navbar({ dict, lang }: NavbarProps) {
     <header className="sticky top-0 z-40 w-full border-b border-white/10 bg-black text-primary-foreground">
       {/* Main nav */}
       <div className="container-max flex h-14 items-center justify-between gap-4 px-4 sm:px-6 lg:h-16 lg:px-8">
-        <div className="flex items-center gap-2.5">
-          <div className="rounded-xl bg-black p-1 shadow-none">
-            <Logo lang={lang} />
-          </div>
-          <p className="hidden whitespace-nowrap font-display text-sm font-bold tracking-widest text-white min-[400px]:block lg:text-base">
+        <div className="flex min-w-0 items-center gap-2 sm:gap-2.5">
+          <Logo />
+          <p className="min-w-0 truncate font-display text-xs font-bold tracking-widest text-white sm:text-sm lg:text-base">
             {dict.nav.brand}
           </p>
         </div>

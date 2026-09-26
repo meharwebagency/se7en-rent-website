@@ -2,7 +2,7 @@
  * Vehicle domain model.
  *
  * Mirrors the `vehicles` table that will be generated into
- * `src/lib/supabase/database.types.ts`. Prices are stored in Omani Rial
+ * `src/lib/supabase/database.types.ts`. Prices are stored in Bahraini Dinar
  * with 3-decimal precision and formatted via the shared currency utility.
  */
 export type Transmission = "automatic" | "manual";
@@ -24,7 +24,7 @@ export interface Vehicle {
   year?: number;
   doors?: number;
   transmission?: Transmission;
-  /** Price per day in OMR (3 decimals). */
+  /** Price per day in BHD (3 decimals). */
   price_per_day: number;
   weekly_price?: number;
   monthly_price?: number;

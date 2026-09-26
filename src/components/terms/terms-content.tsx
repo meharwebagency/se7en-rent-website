@@ -83,7 +83,7 @@ export default function TermsContent({ lang, dict }: TermsContentProps) {
               ))}
             </div>
 
-            {/* ============ ABOUT SE7EN (closing block) ============ */}
+            {/* ============ ABOUT AL ZAJEL (closing block) ============ */}
             <div className="mt-16 rounded-lg bg-muted p-6 sm:p-8">
               <h2 className="font-display text-lg font-bold tracking-tight text-foreground sm:text-xl">
                 {dict.aboutTitle}

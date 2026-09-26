@@ -1,5 +1,5 @@
 /**
- * Phone number validation + normalization for SE7EN Car Rental & Mobility.
+ * Phone number validation + normalization for Al Zajel Rent Car.
  *
  * Default rule (Oman): +968 followed by exactly 8 digits,
  * e.g. +96897102438. Omani mobile prefixes are 7, 8 or 9.

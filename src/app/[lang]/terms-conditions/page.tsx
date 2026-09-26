@@ -16,12 +16,12 @@ export async function generateMetadata({
 
   const title =
     lang === "ar"
-      ? "الشروط والأحكام | سيڤن لتأجير السيارات والتنقل"
-      : "Terms & Conditions | SE7EN Car Rental & Mobility Oman";
+      ? "الشروط والأحكام | الزاجل لتأجير السيارات"
+      : "Terms & Conditions | Al Zajel Rent Car";
   const description =
     lang === "ar"
-      ? "اطلع على الشروط والأحكام الخاصة بسيڤن لتأجير السيارات والتنقل في عُمان."
-      : "Read the Terms & Conditions for SE7EN Car Rental & Mobility in Oman.";
+      ? "اطلع على الشروط والأحكام الخاصة بالزاجل لتأجير السيارات."
+      : "Read the Terms & Conditions for Al Zajel Rent Car.";
 
   return {
     title,

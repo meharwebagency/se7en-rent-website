@@ -1,5 +1,5 @@
 // =============================================================================
-// Supabase database types — SE7EN Car Rental & Mobility
+// Supabase database types — Al Zajel Rent Car
 //
 // Generated from supabase/migrations/20260101000000_schema.sql.
 // To regenerate against a live project when credentials are available:

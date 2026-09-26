@@ -1,10 +1,11 @@
 @import "tailwindcss";
 
 /*
-  SE7EN Car Rental & Mobility — brand design system
+  Al Zajel Rent Car — brand design system
   Background: #FFFFFF  (white)
   Navbar/foot: #000000 (black)
-  Accent:     #E31E24  (brand red)
+  Accent:     #C8091C  (brand red)
+  Secondary:  #C3DD20  (neon lime)
   Text:       dark gray/black
 */
 
@@ -18,11 +19,14 @@
   --popover: #ffffff;
   --popover-foreground: #0d0d0d;
 
-  --primary: #0d723d;
+  --primary: #c8091c;
   --primary-foreground: #ffffff;
 
-  --accent: #0d723d;
+  --accent: #c8091c;
   --accent-foreground: #ffffff;
+
+  --lime: #c3dd20;
+  --lime-foreground: #0d0d0d;
 
   --secondary: #f4f4f5;
   --secondary-foreground: #0d0d0d;
@@ -35,7 +39,7 @@
 
   --border: #e4e4e7;
   --input: #e4e4e7;
-  --ring: #0d723d;
+  --ring: #c8091c;
 
   --radius: 0.75rem;
 }
@@ -50,11 +54,14 @@
   --popover: #ffffff;
   --popover-foreground: #0d0d0d;
 
-  --primary: #0d723d;
+  --primary: #c8091c;
   --primary-foreground: #ffffff;
 
-  --accent: #0d723d;
+  --accent: #c8091c;
   --accent-foreground: #ffffff;
+
+  --lime: #c3dd20;
+  --lime-foreground: #0d0d0d;
 
   --secondary: #f4f4f5;
   --secondary-foreground: #0d0d0d;
@@ -67,7 +74,7 @@
 
   --border: #e4e4e7;
   --input: #e4e4e7;
-  --ring: #0d723d;
+  --ring: #c8091c;
 }
 
 @theme inline {
@@ -81,6 +88,8 @@
   --color-primary-foreground: var(--primary-foreground);
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
+  --color-lime: var(--lime);
+  --color-lime-foreground: var(--lime-foreground);
   --color-secondary: var(--secondary);
   --color-secondary-foreground: var(--secondary-foreground);
   --color-muted: var(--muted);
@@ -440,7 +449,7 @@
   transition: color 0.2s ease;
 }
 .contact-link:hover {
-  color: #0d723d;
+  color: #c8091c;
 }
 
 /* ============================================================

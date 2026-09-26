@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Clock } from "lucide-react";
 
-import { Logo } from "@/components/layout/logo";
+import { Logo } from "./logo";
 import { LanguageSwitcher } from "@/components/layout/language-switcher";
 
 import { siteConfig } from "@/lib/site";
@@ -60,7 +60,7 @@ export async function Footer({ dict, lang }: FooterProps) {
           {/* Brand */}
           <div>
             <div className="[&_a]:text-white">
-              <Logo lang={lang} />
+              <Logo />
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-zinc-400">
               {dict.footer.tagline}

@@ -35,7 +35,7 @@ interface Filters {
   price: PriceRange;
   type: string;
   transmission: string;
-  /** Min/max price in OMR; empty string means no bound. Mobile-only range filter. */
+  /** Min/max price in BHD; empty string means no bound. Mobile-only range filter. */
   priceMin: string;
   priceMax: string;
 }
@@ -422,7 +422,7 @@ export function FleetBrowser({
               <span
                 className={cn(
                   "flex h-5 w-5 items-center justify-center rounded-md border",
-                  datesMode ? "border-accent bg-accent text-accent-foreground" : "border-border"
+                  datesMode ? "border-lime bg-lime text-lime-foreground" : "border-border"
                 )}
                 aria-hidden="true"
               >
