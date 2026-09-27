@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { Analytics } from "@vercel/analytics/next";
 
 import { Providers } from "@/components/layout/providers";
 import { Toaster } from "@/components/ui/toaster";
@@ -49,6 +50,7 @@ export default async function AdminRootLayout({
           <Toaster />
         </Providers>
         {process.env.NODE_ENV === "development" && <AgentationDev />}
+        <Analytics />
       </body>
     </html>
   );
