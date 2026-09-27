@@ -22,8 +22,8 @@ export const siteConfig = {
   // Provided from the admin dashboard (Supabase settings) or set here as default.
   phone: "+968 9710 2438",
   whatsapp: "+968 9710 2438",
-  address: "Muscat, Oman",
-  addressAr: "مسقط، عُمان",
+  address: "Al Hidd, Bahrain",
+  addressAr: "الحد، البحرين",
 
   // Google Maps embedded location (leave blank — added later from the admin dashboard).
   mapsUrl: "https://maps.app.goo.gl/Jvn9JeoxitUQV9XFA",

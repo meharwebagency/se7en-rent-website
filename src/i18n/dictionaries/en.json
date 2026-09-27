@@ -75,7 +75,7 @@
     "copyright": "© {year} Al Zajel Rent Car. All rights reserved."
   },
   "home": {
-    "heroBadge": "Premium car rental in Oman",
+    "heroBadge": "Premium car rental in Bahrain",
     "heroTitle": "استأجر سيارتك و",
     "heroTitleAccent": "انطلق بطريقتك",
     "heroTitleEn": "Drive Your Way",
@@ -86,7 +86,7 @@
     "featuredServicesTitle": "Our Services",
     "featuredServices": [
       "Airport Pickup & Drop-off",
-      "Delivery Anywhere in Oman",
+      "Delivery Anywhere in Bahrain",
       "Free Maintenance Service",
       "24/7 Roadside Assistance",
       "Gold Comprehensive Insurance"
@@ -103,7 +103,7 @@
     "vehiclesSubtitle": "Explore our selection of premium vehicles.",
     "ourFleetTitle": "Our Fleet",
     "viewAllVehicles": "View All Cars",
-    "trustTitle": "Trusted by travelers across Oman",
+    "trustTitle": "Trusted by travelers across Bahrain",
     "trustSubtitle": "We combine a premium fleet with dependable service.",
     "trust1Title": "Transparent Pricing",
     "trust1Desc": "Clear rates in Bahraini Dinar with no hidden fees.",
@@ -144,7 +144,7 @@
     "featuresItems": [
       "Comprehensive Gold insurance for peace of mind throughout your rental period",
       "24/7 roadside assistance",
-      "Free delivery service anywhere in Oman",
+      "Free delivery service anywhere in Bahrain",
       "Competitive rates with full transparency and no hidden fees"
     ],
     "visitTitle": "Visit Us",
@@ -178,7 +178,7 @@
       {
         "title": "Use of the Vehicle",
         "items": [
-          "The vehicle must be used within Oman only.",
+          "The vehicle must be used within Bahrain only.",
           "The vehicle may not be used for racing, off-road driving, illegal activities, or any other prohibited purposes.",
           "The renter is responsible for all traffic violations, parking fines, road tolls, and related charges incurred during the rental period."
         ]
@@ -236,8 +236,8 @@
       {
         "title": "Governing Law",
         "items": [
-          "These Terms & Conditions are governed by the laws of the Sultanate of Oman.",
-          "Any disputes arising from the rental agreement shall be subject to the jurisdiction of the Omani courts."
+          "These Terms & Conditions are governed by the laws of the Kingdom of Bahrain.",
+          "Any disputes arising from the rental agreement shall be subject to the jurisdiction of the Bahraini courts."
         ]
       }
     ],
@@ -411,7 +411,7 @@
     "checking": "Checking availability...",
     "noAvailability": "No vehicles available for the selected dates.",
     "selectVehicle": "Select a vehicle",
-    "pickupLocationPlaceholder": "e.g. Muscat / Airport"
+    "pickupLocationPlaceholder": "e.g. Al Hidd / Airport"
   },
   "contact": {
     "title": "Contact Us",
